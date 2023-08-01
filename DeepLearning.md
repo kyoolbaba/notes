@@ -136,6 +136,13 @@ print(np.sum(b/c))
 ![image](https://github.com/kyoolbaba/notes/assets/46890041/ca9f4856-ae68-48e3-a0c4-2e8b7cd3df20)
 
 
+![image](https://github.com/kyoolbaba/notes/assets/46890041/b342c73f-5201-4d47-9c7e-5a15f5aba71b)
+
+![image](https://github.com/kyoolbaba/notes/assets/46890041/da90bc22-0d46-4cad-b611-fef966a3f946)
+
+
+
+
 
 
 
