@@ -74,6 +74,21 @@ print(torch.sum(nv1*nv2))
 ![image](https://github.com/kyoolbaba/notes/assets/46890041/da8f64a7-9016-466f-a9cf-02d5d764bfb2)
 
 # Dot Product is a singel number that reflects commonalities between two objects (can be vector, matrices, tensors , images , signals)
+## Application of dot product
+1. Statistics Correlation, least-squares, entropy,PCA.
+2. Signal Processing: Fourier transform, filtering
+3. Science: Geometry, Physics, mechanics
+4. Deep Learning: CNN,matrix multiplication, Gram Matrix(used in style transfer)
+
+# Video 8 
+# Matrix Multiplication
+It is a fancy application of a dot product.
+Rules for a matrix multiplication to happen
+1. if a size of matrix is MxN then M is rows and N is columns, it can be only multiplied to an another matrix which is having a size of NxK
+and the result will be in the size MxK
+For Ex if A is a matrix of size 2x8 and B is a matrix of size 8*3 then we can multiply two matrices and the result will be in the size of  2x3
+
+
 
 
 
