@@ -60,6 +60,22 @@ nv2=np.array([9,3,7,1])
 print(np.dot(nv1,nv2.T))
 print(np.sum(nv1*nv2))
 ```
+![image](https://github.com/kyoolbaba/notes/assets/46890041/04a1ca9a-1df1-4f8c-bb46-693cbb241b2d)
+
+```
+nv1=torch.tensor([1,2,5,7])
+nv2=torch.tensor([9,3,7,1])
+print(torch.dot(nv1,nv2.T))
+print(torch.sum(nv1*nv2))
+```
+
+
+
+![image](https://github.com/kyoolbaba/notes/assets/46890041/da8f64a7-9016-466f-a9cf-02d5d764bfb2)
+
+# Dot Product is a singel number that reflects commonalities between two objects (can be vector, matrices, tensors , images , signals)
+
+
 
     
   
