@@ -36,8 +36,25 @@ print(tvT),print(" ")
 ```
 ![image](https://github.com/kyoolbaba/notes/assets/46890041/9ff680dd-0e36-4fcb-a796-6dd041a1a91b)
 
-    
- 
+
+
+# Video 7
+
+## WhaT is dot product
+ 1. Dot product is written in angled brackets
+ 2. a.b <a.b> aTb
+a=[1, 2, 3, 4]
+b=[     [5],
+        [6],
+        [7],
+        [8]]
+
+a.b= (1*5)+(2*6)+(3*7)+(4*8)=70
+#### the dot product of any vectors will result in a scalar value 
+a. Dot product can happen between two vectors which have a specific size i.e. they should have exactly same size
+
+Dot product can happen between on any dimensions like 2D 3D or 4 Dimensional
+## 
     
   
  
