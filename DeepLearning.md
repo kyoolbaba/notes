@@ -125,6 +125,19 @@ softmax=e^z(i)/sum(e^z)
 This will result in [.09,.24,.67]
 and sum of all the numbers is 1
 
+```
+a=np.array([2,6,5])
+b=np.exp(a)
+print(b)
+c=np.sum(b)
+print(c)
+print(np.sum(b/c))
+```
+![image](https://github.com/kyoolbaba/notes/assets/46890041/ca9f4856-ae68-48e3-a0c4-2e8b7cd3df20)
+
+
+
+
 
 
 
