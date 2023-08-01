@@ -54,7 +54,13 @@ a.b= (1*5)+(2*6)+(3*7)+(4*8)=70
 a. Dot product can happen between two vectors which have a specific size i.e. they should have exactly same size
 
 Dot product can happen between on any dimensions like 2D 3D or 4 Dimensional
-## 
+```
+nv1=np.array([1,2,5,7])
+nv2=np.array([9,3,7,1])
+print(np.dot(nv1,nv2.T))
+print(np.sum(nv1*nv2))
+```
+
     
   
  
