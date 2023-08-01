@@ -88,6 +88,46 @@ Rules for a matrix multiplication to happen
 and the result will be in the size MxK
 For Ex if A is a matrix of size 2x8 and B is a matrix of size 8*3 then we can multiply two matrices and the result will be in the size of  2x3
 
+```
+A=np.random.randn(3,4)
+B=np.random.randn(4,5)
+C=np.random.randn(3,7)
+
+print(np.round(A@B,2)) , print(" ")
+print(np.matmul(A,B)), print(" ")
+```
+
+![image](https://github.com/kyoolbaba/notes/assets/46890041/72d14d13-0c08-47f6-a90f-501ebf1f48d5)
+
+```
+A=torch.randn(3,4)
+B=torch.randn(4,5)
+C1=np.random.randn(4,7)
+C2=torch.tensor(C1,dtype=torch.float)
+print(A@B)
+```
+
+![image](https://github.com/kyoolbaba/notes/assets/46890041/898adf4d-d89b-46c9-b2af-3435d8692c32)
+
+
+# Video 9
+
+# Softmax Function
+What is e in Math?
+e=2.718
+e to the power anything even negative number it results will never be negative
+Because we can generate probabilities from this as probabilities need to be a positive number
+Softmax of a vector is 
+z=[1,2,3]
+e^z={2.72,7.39,20.01}
+Sum(e^z)=30.19
+softmax=e^z(i)/sum(e^z)
+This will result in [.09,.24,.67]
+and sum of all the numbers is 1
+
+
+
+
 
 
 
