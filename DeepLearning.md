@@ -168,11 +168,20 @@ the softmax function for normal scale is non linear but it is linear for logarit
 ## NOTE : exponential is an inverse of logarithm and vice versa
 
 
-Logarithmic 
+# Logarithmic 
+
 ![image](https://github.com/kyoolbaba/notes/assets/46890041/d082c60f-909a-4e6c-a572-55ef3aeac1af)
 
 
 
+
+```
+
+softfun=nn.Softmax()
+softmax_values=softfun(torch.Tensor(np.random.randint(5,100,60)))
+print(softmax_values)
+torch.sum(softmax_values)
+```
 
 
 
