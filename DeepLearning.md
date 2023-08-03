@@ -140,6 +140,40 @@ print(np.sum(b/c))
 
 ![image](https://github.com/kyoolbaba/notes/assets/46890041/da90bc22-0d46-4cad-b611-fef966a3f946)
 
+```
+z=np.random.randint(5,32,100)
+print(z)
+num=np.exp(z)
+den=np.sum(num)
+
+sigma=num/den
+print(sigma)
+plt.plot(z,sigma,'bo')
+plt.xlabel("Original number (z)")
+plt.ylabel("Softmax transformed number")
+plt.show()
+plt.plot(z,sigma,'bo')
+plt.xlabel("Original number (z)")
+plt.yscale('log')
+plt.ylabel("Softmax transformed number")
+plt.show()
+```
+
+1. Below is the conversion random numbers from 5 to 35 into probabilities
+![image](https://github.com/kyoolbaba/notes/assets/46890041/9b022b04-1174-400b-9f9e-04b864d57f34)
+2. below is same as above but in logarithmic scale
+ ![image](https://github.com/kyoolbaba/notes/assets/46890041/ff7e2dcf-42dd-420f-a04f-c93b5250e9ed)
+the softmax function for normal scale is non linear but it is linear for logarithmic scale
+
+## NOTE : exponential is an inverse of logarithm and vice versa
+
+
+Logarithmic 
+![image](https://github.com/kyoolbaba/notes/assets/46890041/d082c60f-909a-4e6c-a572-55ef3aeac1af)
+
+
+
+
 
 
 
