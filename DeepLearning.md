@@ -184,6 +184,22 @@ torch.sum(softmax_values)
 ```
 
 
+# Video 10 LOG
+1. Log is inverse of exp and vice versa
+2. Log is monotonic function of x i.e. When x goes up even y goes up and when x goes down even y goes down
+3. Sin wave is non monotonic
+4. Log stretches small values at the x axis
+5. This is important because log distinguishes between small and closely spaced numbers
+
+![image](https://github.com/kyoolbaba/notes/assets/46890041/76d02c3b-4650-4e63-89ba-4e5b9f6ccc89)
+
+6. Most of Machine Learning & Deep Learning involves minimizing small quantities like probabilities.
+7. Computers suffer from small numbers when working on a very small numbers
+8. So the ideas is to stretch the small numbers and just makes the optimization of models to work better
+
+
+
+
 
 
 
