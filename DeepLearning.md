@@ -196,6 +196,23 @@ torch.sum(softmax_values)
 6. Most of Machine Learning & Deep Learning involves minimizing small quantities like probabilities.
 7. Computers suffer from small numbers when working on a very small numbers
 8. So the ideas is to stretch the small numbers and just makes the optimization of models to work better
+Figure : This figure is an illustration for Log vs Exp(transformed to probabilities)
+![image](https://github.com/kyoolbaba/notes/assets/46890041/f0958098-1506-4b7b-8979-ae64b1827481)
+code for the above figure
+```z=np.random.randint(5,160,100)
+print(z)
+num=np.exp(z)
+den=np.sum(num)
+sigma=num/den
+log_=np.log(z)
+den=np.sum(num)
+plt.plot(z,sigma,'bo',label="exp")
+plt.plot(z,log_,'go',label="log")
+plt.legend()
+plt.show()
+```
+
+
 
 
 
