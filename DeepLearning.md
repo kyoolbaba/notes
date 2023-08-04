@@ -159,11 +159,11 @@ plt.ylabel("Softmax transformed number")
 plt.show()
 ```
 
-1. Below is the conversion random numbers from 5 to 35 into probabilities
+1. Below is the conversion of random numbers from 5 to 35 into probabilities
 ![image](https://github.com/kyoolbaba/notes/assets/46890041/9b022b04-1174-400b-9f9e-04b864d57f34)
-2. below is same as above but in logarithmic scale
+2. below is the same as above but on a logarithmic scale
  ![image](https://github.com/kyoolbaba/notes/assets/46890041/ff7e2dcf-42dd-420f-a04f-c93b5250e9ed)
-the softmax function for normal scale is non linear but it is linear for logarithmic scale
+the softmax function for normal scale is non-linear but it is linear for logarithmic scale
 
 ## NOTE : exponential is an inverse of logarithm and vice versa
 
@@ -187,16 +187,16 @@ torch.sum(softmax_values)
 # Video 10 LOG
 1. Log is inverse of exp and vice versa
 2. Log is monotonic function of x i.e. When x goes up even y goes up and when x goes down even y goes down
-3. Sin wave is non monotonic
-4. Log stretches small values at the x axis
+3. Sin wave is nonmonotonic
+4. Log stretches small values at the x-axis
 5. This is important because log distinguishes between small and closely spaced numbers
 
 ![image](https://github.com/kyoolbaba/notes/assets/46890041/76d02c3b-4650-4e63-89ba-4e5b9f6ccc89)
 
-6. Most of Machine Learning & Deep Learning involves minimizing small quantities like probabilities.
-7. Computers suffer from small numbers when working on a very small numbers
-8. So the ideas is to stretch the small numbers and just makes the optimization of models to work better
-Figure : This figure is an illustration for Log vs Exp(transformed to probabilities)
+6. Most of Machine Learning & Deep Learning involve minimizing small quantities like probabilities.
+7. Computers suffer from small numbers when working on very small numbers
+8. So the idea is to stretch the small numbers and just make the optimization of models to work better
+Figure: This figure is an illustration of Log vs Exp(transformed to probabilities)
 ![image](https://github.com/kyoolbaba/notes/assets/46890041/f0958098-1506-4b7b-8979-ae64b1827481)
 code for the above figure
 ```z=np.random.randint(5,160,100)
@@ -211,6 +211,13 @@ plt.plot(z,log_,'go',label="log")
 plt.legend()
 plt.show()
 ```
+
+1. High Entropy means the dataset has lot of variability
+2. Low entropy means the most of the values in the dataset are repeated (They are redundant)
+
+Q. So How does variance vary from entropy?
+A. Entropy is non linear and it does have any assumptions about the distribution
+  and Variance depends on mean of the data and there fore is appropriate for roughly normal data
 
 
 
