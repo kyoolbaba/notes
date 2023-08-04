@@ -219,6 +219,20 @@ Q. So How does variance vary from entropy?
 A. Entropy is non linear and it does have any assumptions about the distribution
   and Variance depends on mean of the data and there fore is appropriate for roughly normal data
 
+  ```
+# also correct written out for N=2 events
+i=np.linspace(0,1,100)
+entropy_list=[]
+for p in i:
+ entropy_list.append(-(p*np.log(p) + (1-p)*np.log(1-p)))
+plt.plot(i,entropy_list,"bx")
+plt.title("How Entropy shows when its varying from 1 to 0")
+plt.show()
+```
+![image](https://github.com/kyoolbaba/notes/assets/46890041/612b1ce8-3bf5-401b-a1b9-db0b3c21589e)
+
+
+
 
 
 
