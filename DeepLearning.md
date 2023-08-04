@@ -232,6 +232,27 @@ plt.show()
 ![image](https://github.com/kyoolbaba/notes/assets/46890041/612b1ce8-3bf5-401b-a1b9-db0b3c21589e)
 
 
+## Binary Cross Entropy
+```
+# Now lets check relation between two probabilities
+p=[1,0.0001]
+q=[0.25,0.75]
+H=0
+G=0
+for i in range(len(p)):
+  H-=p[i]*np.log(q[i])
+  G-=q[i]*np.log(p[i])
+print(H,G)
+```
+![image](https://github.com/kyoolbaba/notes/assets/46890041/e7704bd8-d3b1-45ac-8dec-282ffd797b60)
+
+# Video 12
+[11,9,1,5,23,5] min = 1
+[11,9,1,5,23,5] max= 25
+[11,9,1,5,23,5] arg_min =2
+[11,9,1,5,23,5] argmax=4
+
+
 
 
 
